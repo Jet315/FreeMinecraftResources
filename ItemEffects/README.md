@@ -2,6 +2,7 @@
 A lightweight plugin allowing an item to contain a potion effect and when clicked, consumed.
 
 View the SpigotMC page to download or view: 
+https://www.spigotmc.org/resources/itemeffects-opensource.53314/
 
 # Features:
 - Configurable Messages & Titles
