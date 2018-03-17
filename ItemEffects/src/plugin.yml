@@ -1,0 +1,8 @@
+name: ItemEffects
+version: 1.0
+description: Put potion effects onto items and give them to players to consume!
+main: me.jet315.itemeffects.Core
+commands:
+  itemeffect:
+    description: The base command for the Parkour plugin
+    aliases: [itemeffects]

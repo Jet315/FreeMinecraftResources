@@ -1,0 +1,36 @@
+#
+# Stores the Material that is used to give enchantments on
+# Must be a valud entity:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+EffectItem: CLAY_BALL
+
+#
+# Stores the times that the effect is given (in seconds) for a particular level
+# (I.E A Strength Level I potion will last 60 seconds)
+#
+TimeForLevel1: 60
+TimeForLevel2: 120
+TimeForLevel3: 180
+
+#Would you like potion particles to show when they activate an effect?
+ShowParticles: true
+
+#
+# Messages:
+# Place holders include:
+# %POTIONEFFECT% - Is replaced for the type of effect that is being activated (I.E Strength)
+# %LEVEL% - Is replaced for the potion effects level
+# %DURATION% - The time (in seconds) the effect is present for
+# %PLAYER% - The player's name
+#
+
+# Whether or not Titles should be used
+UseTitles: true
+# If the above is true, what titles should be displayed?
+MainTitle: "&f&l+ &c%POTIONEFFECT%"
+SubTitle: "&a&m-----------------------"
+
+#Consume message
+OnEffectTaken: "&6Effects &e&l> &cYou have activated &a%POTIONEFFECT%&c for &a%DURATION% &cseconds!"
+
