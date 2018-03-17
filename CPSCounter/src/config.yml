@@ -1,0 +1,35 @@
+###################
+# CPS - By Jet315 #
+###################
+
+#If the player is not clicking (CPS = 0), would you like to hide the ActionBar?
+HideActionBar: false
+
+#Messages
+#The format of the Action Bar - Replace %CPS%
+ActionBarText: '&c• &7Current CPS &a%CPS% &c•'
+
+#The message that is sent when the player starts a /cps check
+StartCPSCheck: '&7&lCPS > &aCounter will start when you next click!'
+#The message that is sent when the player starts clicking
+CPSCheckStart: '&7&lCPS > &aCalculating CPS!'
+#The message that is shown when the CPS has been calculated - Replace %CPS% with the CPS
+CPSMessage: '&7&lCPS > &aYour CPS is &c%CPS%'
+#No permission message
+NoPermission: '&7&lCPS > &cYou do not have permission to do this!'
+
+#The message that is sent when the player starts a /cps check on another user - Replace %PLAYER% with the players name
+OtherCPSCheck: '&7&lCPS > &aCounter will start when &c%PLAYER% &anext clicks!'
+#The message that is sent when the player who is being checked starts clicking
+OtherCPSCheckStart: '&7&lCPS > &aCalculating CPS for %PLAYER%'
+#The message that is sent when the player does not have the permission to check another player
+OtherCPSCheckNoPermission: '&7&lCPS > &cTo check the CPS of another player, you must be atleast &dVIP &cRank'
+#The message that is sent when a player checks a player that is not online - Replace %PLAYER% with the players name
+PlayerNotFound: '&7&lCPS > &c%PLAYER% cannot be found!'
+#Invalid arguments message
+InvalidArgs: '&7&lCPS > &cInvalid Arguments!'
+#The message that is shown when a player logs out during a CPS check
+PlayerLoggedOut: '&7&l CPS > &a%PLAYER% &chas logged out! Unable to check CPS'
+#The message that is shown when the CPS check on the other player has been calculated - Replace %CPS% with the CPS and %PLAYER% with the players name
+OtherCPSMessage: '&7&lCPS > &a%PLAYER% &cCPS is &a%CPS%'
+

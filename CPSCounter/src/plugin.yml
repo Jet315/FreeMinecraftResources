@@ -1,0 +1,8 @@
+name: CPS
+version: 1.0
+description: A plugin to determind the CPS of any player
+main: me.jet.cps.CPS
+depend: [ActionBarAPI]
+commands:
+  cps:
+    description: The CPS main command
