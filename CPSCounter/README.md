@@ -20,7 +20,7 @@ https://i.gyazo.com/2f776ffbf4a8a37870be5e68c4cccc41.mp4
 
 # Commands & Permissions:
 - /cps - Shows your CPS - (Permission: cps.check)
-- /cps <player> - Shows the players specified CPS - (Permission: cps.checkother)
+- /cps PlayerName - Shows the players specified CPS - (Permission: cps.checkother)
 - /cps reload - Reloads the configuration file - (Permission: cps.reload)
 
 - To show the Action Bar, the permission cps.actionbar is required
