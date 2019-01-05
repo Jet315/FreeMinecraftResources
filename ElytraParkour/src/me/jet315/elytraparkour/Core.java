@@ -92,15 +92,6 @@ public class Core extends JavaPlugin {
         return instance;
     }
 
-    /**
-     * Plan
-     * - Command to create portals, - radius specified (as well as players direction will determind way portal faces) - the order number too, and whether it's a booster (followed it's multiplier?)
-     * - Config options to set first portal effects, players next portal, portals they need to enter, portals behind them, and end portal
-     * - config option for the amount of portals to show, probably options for the amount shown behind and the amount shown infront
-     * -refresh rate in ticks
-     *- possibly players can select particle trails
-     */
 
-    //TODO: add to the ElytraParkourAPI, respawn item?
 }
 
