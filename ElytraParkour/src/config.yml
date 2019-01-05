@@ -1,0 +1,61 @@
+#Plugins prefix
+PluginsPrefix: "&7[&bElyta&aParkour&7] "
+
+#  LARGE LAG INFLUENCE FACTORS  #
+
+#How many particles should each ring be made out of? - More particles will likely mean more lag! Reduce this if your server is struggling!
+NumberOfParticlesPerRing: 64
+#How many ticks should the plugin wait in between spawning particles (20 ticks = 1 second)? - Again a large factor to lag, I suggest between 20 - 70
+SpawningParticlesDelay: 50
+#when needed, the first ring is always spawned for each map. Other than the first, how many more rings would you like to spawn? Would highly suggest you keep this at 2 or 0, unless you only have a few courses
+AdditionalSpawnRings: 2
+#When a player flies through a ring, how many rings ahead would you like to spawn? (Must be at least 1.. else they wont know where they are heading..)
+RingsInfrontOfPlayer: 3
+
+#Particle Options - Any particles listed here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html are valid. The type of particles used may have a influence on how laggy they will be
+
+#What Particles would you like the first ring to be?
+FirstRingParticles: VILLAGER_HAPPY
+#What particles would you like all those between the first and last to be?
+DefaultRingParticles: FLAME
+#What particles would you like the end ring to be?
+LastRingParticles: CLOUD
+
+#What particles would you like when testing rings?
+TestingRingParticle: CLOUD
+
+
+
+#Boosts
+FirstRingBoost: 1.5
+DefaultRingBoost: 1.3
+LastRingBoost: 0
+
+#Sounds - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html (must be a valid sound) type 'null' if you do not want a sound played
+FirstRingSound: BLOCK_NOTE_PLING
+DefaultRingSound: BLOCK_NOTE_PLING
+LastRingSound: BLOCK_NOTE_PLING
+
+#feet particles (shown when they enter a ring) - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html (must be a valid particle) type 'null' if you do not want a particle to be displayed
+#What Particles would you like the first ring to be?
+FirstRingFeetParticles: FLAME
+DefaultRingFeetParticles: DRAGON_BREATH
+LastRingFeetParticles: VILLAGER_HAPPY
+
+#Other Options
+#The message to send when they fly through the first ring. Type "none" for no message
+#Replace %MAP% with the map name, and %PREFIX% for the plugins prefix
+FirstRingMessage: "%PREFIX%&aYou have started the map &c%MAP%&a!"
+
+#When they reach the last ring, should we teleport them to the maps spawn?
+TeleportToMapSpawnAtLastRing: true
+#replace %PREFIX% with the prefix, replace %MAP% with the Map name, type "none" if you do not want a message shown
+MessageToSendWhenReachedLastRing: "%PREFIX%&aCongratulations, &dyou have finished the map &c%MAP%"
+
+#If they stop gliding during a course, should we teleport them to the maps spawn?
+TeleportToMapSpawnIfStopsGliding: true
+#replace %PREFIX% with the prefix, type "none" if you do not want a message shown
+StopGlidingMessage: "%PREFIX%&aYou need to keep moving!"
+
+#No permission message
+NoPermissions: "%PREFIX%&cYou do not have permission for this command!"

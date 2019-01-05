@@ -1,0 +1,8 @@
+name: ElytraParkour
+version: 1.0
+main: me.jet315.elytraparkour.Core
+softdepend: [Multiverse,Multiworld,Multiverse-Core]
+commands:
+  elytraparkour:
+    description: The base command for the ElytraParkour plugin
+    aliases: [ep,elytra]
